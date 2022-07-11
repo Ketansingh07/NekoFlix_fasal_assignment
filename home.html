@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles_.css">
+    <title>NekoFlix!</title>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">NekoFlix</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link right" aria-current="page" href="Movie_gallery/movies.html">Your Movies</a>
+                </li>
+            </ul>
+
+            <a href="search_list.html">
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </a>
+        </div>
+    </div>
+</nav>
+<div class="top">
+<section class="section">
+    <div class="container">
+        <div class="half-width">
+            <div class="s1">
+                <h1>
+                    <span>Free</span>Time?,<br> Here are some awesome anime & movies to <span>watch!</span>
+                </h1>
+                <p> <strong>Watch Your favourite or New release on NekoFlix!</strong></p>
+                <div class="button-move">
+                <a class="btn" href="Movie_gallery/movies.html" target="_blank">Your Movie Playlist</a>
+
+                <a class ="btn" href="#" target="_blank"> All Movies</a>
+                </div>
+            </div>
+        </div>
+        <div class="half-width" id="background1">
+            <div>
+                <img class="image_" src="cat.jpg" alt="Food lover">
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<section class="section">
+    <div>
+        <div class="my-movies">
+            <h1>Recommendation</h1>
+            <p>Here are some Recommendation by your truly please have a watch.</p>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="movie">
+            <a href="doctor_strange.html">
+            <div class="movie-img">
+                <img src="./doctor.jpg" alt="movie-img">
+            </div>
+            <div class="movie-content">
+                <h3>Doctor Strange</h3>
+                <p>
+                    Doctor Strange serves as the Sorcerer Supreme, the primary protector of Earth against magical
+                    and mystical threats. Strange was created during the Silver Age of Comic Books to
+                    bring a different kind of character and themes of mysticism to Marvel Comics
+                </p>
+                <br>
+            </div>
+            </a>
+        </div>
+        <div class="movie">
+            <a href="one_piece.html">
+            <div class="movie-img">
+                <img src="./onepiece.jpg" alt="one-img">
+
+            </div>
+            <div class="movie-content">
+                <h3>One Piece</h3>
+                <p>The series focuses on Monkey D. Luffy, a young man made of rubber, who,
+                    inspired by his childhood idol, the powerful pirate Red-Haired Shanks,
+                    sets off on a journey from the East Blue Sea to find the mythical treasure,
+                    the One Piece, and proclaim himself the King of the Pirates.
+                </p>
+                <br>
+            </div>
+            </a>
+        </div>
+        <div class="movie">
+            <a href="Avenger_Endgame.html">
+            <div class="movie-img">
+                <img src="./end.jpg" alt="recipe-img">
+            </div>
+            <div class="movie-content">
+                <h3>Avenger Endgame</h3>
+                <p>Adrift in space with no food or water, Tony Stark sends a message to
+                    Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers --
+                    Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back
+                    their vanquished allies for an epic showdown with
+                    Thanos.
+                </p>
+            </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+</body>
+ <footer class="footer">
+    <h1><span class="gradient-text"></span>NekoFlix!</h1>
+    <p>Be safe and have some Nekoflix and chill.</p>
+</footer>
+</html>

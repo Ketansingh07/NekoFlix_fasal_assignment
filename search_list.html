@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Creating Search Bar using HTML
+    CSS and Javascript
+  </title>
+
+  <!-- linking the stylesheet(CSS) -->
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+
+<!-- input tag -->
+<input id="searchbar" onkeyup="search_movie()" type="text"
+       name="search" placeholder="Search movies..">
+
+<!-- ordered list -->
+<table id='list'>
+<td class="movies">
+  <div class="container">
+    <div class="movie">
+      <a href="doctor_strange.html">
+        <div class="movie-img">
+          <img src="./doctor.jpg" alt="movie-img">
+        </div>
+        <div class="movie-content">
+          <h3>Doctor Strange</h3>
+          <p>
+            Doctor Strange serves as the Sorcerer Supreme, the primary protector of Earth against magical
+            and mystical threats. Strange was created during the Silver Age of Comic Books to
+            bring a different kind of character and themes of mysticism to Marvel Comics
+          </p>
+          <br>
+        </div>
+      </a>
+</td>
+  <td class="movies">
+    <div class="movie">
+      <a href="one_piece.html">
+        <div class="movie-img">
+          <img src="./onepiece.jpg" alt="one-img">
+
+        </div>
+        <div class="movie-content">
+          <h3>One Piece</h3>
+          <p>The series focuses on Monkey D. Luffy, a young man made of rubber, who,
+            inspired by his childhood idol, the powerful pirate Red-Haired Shanks,
+            sets off on a journey from the East Blue Sea to find the mythical treasure,
+            the One Piece, and proclaim himself the King of the Pirates.
+          </p>
+          <br>
+        </div>
+      </a>
+    </div>
+  </td>
+  <td class="movies">
+    <div class="movie">
+      <a href="Avenger_Endgame.html">
+        <div class="movie-img">
+          <img src="./end.jpg" alt="recipe-img">
+        </div>
+        <div class="movie-content">
+          <h3>Avenger Endgame</h3>
+          <p>Adrift in space with no food or water, Tony Stark sends a message to
+            Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers --
+            Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back
+            their vanquished allies for an epic showdown with
+            Thanos.
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+  </td>
+</table>
+
+<!-- linking javascript -->
+<script src="./movie_list.js"></script>
+</body>
+
+</html>

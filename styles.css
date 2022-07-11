@@ -1,0 +1,60 @@
+
+body{
+    font-family: 'Quicksand', serif;
+    font-size: 14px;
+    font-weight: 300;
+    background-image: url("background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+
+}
+.subtitle_is-4{
+    color: white;
+    font-size: 30px;
+}
+.meow.is-success {
+    background: #f2f6fa;
+}
+.meow .nav,
+.meow.is-success .nav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.box {
+    margin-top: 20%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+input {
+    color: blue;
+    font-weight: 300;
+}
+p {
+    font-weight: 700;
+}
+p.subtitle {
+    padding-top: 1rem;
+}
+
+a {
+    color: #fff;
+    margin-top: 10px;
+}
+a:hover {
+    color: #bababa;
+}
+
+.languages {
+    margin-top: 10px;
+}
+
+.footer-text {
+    font-weight: initial;
+}
+.meow {
+    text-align: right;
+}

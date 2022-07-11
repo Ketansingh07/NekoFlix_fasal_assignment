@@ -1,0 +1,116 @@
+.body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+}
+.section{
+        margin-bottom: 3%;
+}
+.section h1{
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        font-weight: bold;
+        color: #333;
+        font-size: 70px;
+}
+.section h1 span{
+        color: #f08e4c;
+}
+.btn{
+        font-size: 16px;
+        padding: 15px 30px;
+        background-image: linear-gradient(to right, #f08e4c, #f55104);
+        color: #fff;
+        font-weight: 700;
+        border-radius: 30px;
+        box-shadow: 0 2px 30px #ec8657;
+
+}
+.button-move{
+        margin-top: 10px;
+}
+ a{
+        text-decoration: none;
+ }
+.container{
+        display: flex;
+        width: 1200px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+}
+.half-width {
+        width: 50%;
+        margin-bottom: 2%;
+        margin-top: 5%;
+    }
+.s1 p{
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 50px;
+}
+.s2{
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 50px;
+        padding: 16%;
+}
+.my-movies{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.my-movies h1{
+    padding: 5% 0 0 0 ;
+    margin: 0;
+}
+.my-movies p{
+    text-align: center;
+    font-size: 200%;
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.container h2{
+
+    text-align: left;
+}
+
+.movie{
+    width: 28%;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px gray;
+    margin-top: 40px;
+}
+#background1{
+    margin-left: 10%;
+}
+.movie:hover{
+    cursor: pointer;
+}
+.movie-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.movie-content h3{
+    margin: 20px 0 15px;
+    font-size: 30px;
+}
+.movie-content p{
+    line-height: 2;
+}
+.footer{
+    background-color: #575757;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer h1{
+    font-family: ' Comic Sans MS', cursive;
+    color: #fff;
+    font-size: 40px;
+    margin: 0 0 30px;
+}
+.footer p{
+    font-size: 18px;
+    color: #fff;
+}
